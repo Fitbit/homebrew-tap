@@ -3,4 +3,4 @@
 
 ## Formula
 
-- [`smartling`](https://github.com/mdreizin/smartling)
+* [`smartling`](https://github.com/mdreizin/smartling)
