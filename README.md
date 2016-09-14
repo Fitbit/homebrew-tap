@@ -1,4 +1,4 @@
-# tap
+# homebrew-tap
 > Custom list of `Homebrew` formulae
 
 ## Formula
