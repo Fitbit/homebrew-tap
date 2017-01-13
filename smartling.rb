@@ -1,8 +1,8 @@
 class Smartling < Formula
   desc "CLI to upload and download translations"
   homepage "https://github.com/fitbit/smartling"
-  url "https://github.com/fitbit/smartling/archive/v0.4.3.tar.gz"
-  sha256 "ac246a5d2d31925a31b9ed8e2cb195edd97faf3a2e43e5726ddb2dffe61eabaa"
+  url "https://github.com/Fitbit/smartling/archive/v0.4.4.tar.gz"
+  sha256 "f49340e807561fabc153a156a3e059717941b46e0c4c364273831c0804e28e43"
 
   head "https://github.com/fitbit/smartling.git"
 
