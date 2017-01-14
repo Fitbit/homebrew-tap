@@ -13,7 +13,7 @@ class Smartling < Formula
     smartlingpath.install buildpath.children
     cd smartlingpath do
       system "glide", "--home", "#{glidepath}", "install", "--skip-test"
-      system "go", "build", "-o", "smartling", "./cli/..."
+      system "go", "build", "-ldflags", "-X main.Version=#{version}", "-o", "smartling", "./cli/..."
       bin.install "smartling"
       prefix.install_metafiles
     end
